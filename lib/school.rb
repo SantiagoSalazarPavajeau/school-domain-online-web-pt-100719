@@ -40,4 +40,5 @@ class School
   def sort(roster)
      roster.each {|grades, names| names.sort!}
   end
+  
 end
