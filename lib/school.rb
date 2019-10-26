@@ -38,7 +38,7 @@ class School
   end
   
   def sort(roster)
-     roster.each {|grades, names| names.sort!}
-     roster
+     roster.each {|grades, names| roster[grades] << names.sort!}
+     
   end
 end
